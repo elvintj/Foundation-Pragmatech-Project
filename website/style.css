@@ -1,4 +1,6 @@
-
+body {
+    margin: 0px;
+}
 .container {
     width: 1200px;
     height: 800px;
@@ -9,8 +11,11 @@
 }
 .container div {
     border: 5px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.colory {
+.container div:nth-child(2) {
     background-color: yellow;
 }
 
