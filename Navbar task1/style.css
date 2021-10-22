@@ -1,0 +1,41 @@
+#my-page{ 
+    background-color: aquamarine;
+}
+.container{
+    width: 1400px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.container h1{
+    color: white;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+.padding-x {
+    padding: 25px 25px;
+}
+.navbar-nav ul{
+    display: flex;
+    padding: 0px 5px;
+}
+.navbar-nav ul li a {
+    padding: 0px 20px;
+    color: white;
+    text-decoration: none;
+    margin-left: 30px;
+    font-size: 17px;
+}
+.padding-add {
+    padding: 20px 20px;
+    background: black;
+    width: 100%;
+    margin-top: 25px;
+}
+.container span {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
