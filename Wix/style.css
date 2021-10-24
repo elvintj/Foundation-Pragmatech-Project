@@ -1,0 +1,115 @@
+body {
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+    width: 1400px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 22px 0px;
+}
+/* Info section starts */
+
+.info-logo,
+.info-login {
+    display: flex;
+}
+.info-logo-element,
+.info-login-element {
+    margin-right: 20px;
+}
+.info-logo-element i {
+    margin: 0px 20px;
+    font-size: 25px;
+}
+.info-logo-element span i{
+    font-size: 47px;
+    margin-top: -11px;
+}
+.info-login-element a {
+    margin-left: 20px;
+    color: black;
+}
+.info-login-element a,
+.info-login-element span{
+    font-size: 17px;
+}
+.info-login-element span a {
+    text-decoration: none;
+}
+/* Info section ends */
+.color-x {
+    background-color: #f3f4f7;
+    width: 100%;
+}
+.container ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 570px;
+    margin-top: 13px;
+}
+.container ul li {
+    padding: 0px 15px;
+}
+.container ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+/* navbar section ends */
+
+/* main section starts */
+.main-img img {
+    width: 911px;
+    height: 688px;
+    margin-top: -22px;
+    margin-right: 150px;
+}
+.background-x {
+    background-color: #f3f4f7;
+    width: 100%;
+}
+.textings {
+    margin-left: 100px;
+    position: relative;
+}
+.textings h1 {
+    font-size: 32px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: #f3f4f7;
+    position: absolute;
+    left: 155px;
+    bottom: 220px;
+}
+.main-img span {
+    font-size: 14px;
+}
+.textings h2 {
+    position: relative;
+    font-size: 4.5em;
+    font-weight: bold;
+    left: 150px;
+    background: #f3f4f7;
+    margin-right: 70px;
+}
+.textings h3 {
+    position: relative;
+    font-size: 4.5em;
+    font-weight: bold;
+    left: 150px;
+    background: #f3f4f7;
+    margin-right: 90px;
+}
+.textings h4 {
+    position: relative;
+    font-size: 4.5em;
+    font-weight: bold;
+    left: 150px;
+    background: #f3f4f7;
+    margin: -7px;
+}
+/* Main section ends */
