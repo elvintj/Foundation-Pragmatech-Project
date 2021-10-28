@@ -1,0 +1,23 @@
+#features {
+    background-color: #1b2232;
+    padding: 35px 0px;
+}
+.item {
+    height: 100px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    margin-left: -10px;
+}
+.item i {
+    font-size: 3em;
+    color: #4eaf4e;
+    margin-right: 20px;
+}
+.item h1 {
+    font-size: 1.5em;
+    font-weight: bold;
+    font-family: sans-serif;
+}
