@@ -1,0 +1,6 @@
+.box {
+    width: 300px;
+    height: 400px;
+    background: cyan;
+    transition: all 1s ease;
+}
