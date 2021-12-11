@@ -1,0 +1,43 @@
+.body {
+    margin: 0 auto;
+}
+.webpage-item{
+    min-height: 400px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    box-shadow: 0px 0px 5px;
+    position: relative;
+}
+.webpage-item img {
+    height: 225px;
+    width: 100%;
+    object-fit: cover;
+}
+.padding-x {
+    padding: 20px;
+    width: 950px;
+}
+.webpage-item p {
+    color: blue;
+    font-size: 1.3em;
+    font-weight: bold;
+    padding-top: 20px;
+}
+.date {
+    width: 60px;
+    height: 60px;
+    background: blue;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.date span {
+    color: white;
+    font-weight: bold;
+}

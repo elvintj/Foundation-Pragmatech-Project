@@ -1,0 +1,666 @@
+body {
+    margin: 0 auto;
+    font-family: sans-serif;
+}
+/* heading section starts */
+#heading {
+    background-color: black;
+}
+.set-1 {
+    min-height: 40px;
+}
+
+.heading-item {
+    min-height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: cursive;
+}
+
+.heading-item h2 {
+    color: white;
+    text-transform: uppercase;
+    font-size: 1.2em;
+    text-decoration: none;
+}
+
+.heading-item i {
+    color: white;
+    font-size: 1.2em;
+}
+
+.heading-item h2,
+.heading-item i {
+    margin: 0px 5px;
+}
+
+.heading-item a {
+    text-decoration: none;
+}
+
+/* heading section ends */
+
+/* navigation section starts */
+.change-x {
+    min-height: 60px;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    position: relative;
+}
+
+.nav-logo h1 {
+    font-size: 2em;
+    font-weight: 800;
+    letter-spacing: 5px;
+    position: absolute;
+    top: 0.4em;
+    left: -2.4em;
+}
+
+.nav-menu {
+    width: 300px;
+    position: relative;
+    left: 2em;
+}
+
+.HeaderMenu {
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 22px;
+}
+
+.HeaderMenu li > i {
+    position: absolute;
+    left: 5.4em;
+    bottom: 0.3em;
+    font-size: 0.8em;
+}
+
+.HeaderMenu li:hover > i {
+    color: white;
+}
+
+.HeaderMenu > li > a {
+    text-decoration: none;
+    color: black;
+    padding: 21px;
+    transition: all .7s ease;
+}
+
+.HeaderMenu > li:hover > a {
+    background: #616161;
+    color: white;
+    border-radius: 7px;
+}
+
+.HeaderMenu li{
+    position: relative;
+}
+
+.ShopMenu {
+    position: absolute;
+    top: 2.4em;
+    opacity: 0;
+    height: 200px;
+    width: 160px;
+    display: grid;
+    grid-template-rows: repeat(5, 1fr);
+    background: #616161;
+    border-radius: 7px;
+    /* overflow: hidden; */
+}
+
+.HeaderMenu li:hover > ul {
+    opacity: 1;
+}
+
+.ShopMenu > li:nth-child(1)
+{
+    padding-top: 12px;
+    padding-left: 30px;
+    background: #616161;
+}
+
+.ShopMenu > li > h3 {
+    text-transform: uppercase;
+    color: white;
+    font-size: 1em;
+}
+
+.ShopMenu > li:nth-child(2)
+{
+    padding-left: 50px;
+    padding-top: 10px;
+    background-color: white;
+    border-bottom: 1px solid gray;
+    transition: all .3s ease;
+}
+
+.ShopMenu > li:nth-child(3)
+{
+    padding-left: 50px;
+    padding-top: 10px;
+    background-color: white;
+    border-bottom: 1px solid gray;
+    transition: all .3s ease;
+}
+
+.ShopMenu > li:nth-child(4)
+{
+    padding-left: 50px;
+    padding-top: 10px;
+    background-color: white;
+    border-bottom: 1px solid gray;
+    transition: all .3s ease;
+}
+
+.ShopMenu > li:nth-child(5)
+{
+    padding-left: 50px;
+    padding-top: 10px;
+    background-color: white;
+    transition: all .3s ease;
+}
+
+.ShopMenu > li > a {
+    text-decoration: none;
+    color: black;
+}
+
+.ShopMenu > li:nth-child(2):hover {
+    background: rgb(184, 182, 182);
+}
+
+.ShopMenu > li:nth-child(2):hover > a {
+    color: rgb(0, 0, 255);
+}
+
+.ShopMenu > li:nth-child(2):hover > i {
+    color: rgb(0, 0, 255);
+}
+
+.ShopMenu > li:nth-child(3):hover {
+    background: rgb(184, 182, 182);
+}
+
+.ShopMenu > li:nth-child(3):hover a {
+    color: rgb(0, 0, 255);
+}
+
+.ShopMenu > li:nth-child(4):hover {
+    background: rgb(184, 182, 182);
+}
+
+.ShopMenu > li:nth-child(4):hover a {
+    color: rgb(0, 0, 255);
+}
+
+.ShopMenu > li:nth-child(5):hover {
+    background: rgb(184, 182, 182);
+}
+
+.ShopMenu > li:nth-child(5):hover a {
+    color: rgb(0, 0, 255);
+}
+
+.ShopMenu > li > i {
+    position: absolute;
+    left: 1.85em;
+    bottom: 0.7em;
+    font-size: 1.1em;
+    transform: rotate(90deg);
+    color: black;
+}
+
+.OuterWearMenu {
+    position: absolute;
+    left: 10.1em;
+    top: -1.5em;
+    height: 90px;
+    width: 120px;
+    background: white;
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    opacity: 0;
+}
+
+.ShopMenu > li > a:hover .OuterWearMenu {
+    opacity: 1;
+}
+
+.OuterWearMenu li a {
+    text-decoration: none;
+    color: black;
+    font-size: 0.9em;
+}
+
+.OuterWearMenu > li:nth-child(1){
+    padding: 5px 0px 0px 23px;
+    border-bottom: 1px solid gray;
+}
+
+.OuterWearMenu >li:nth-child(1):hover {
+    background: rgb(184, 182, 182);
+}
+
+.OuterWearMenu >li:nth-child(1):hover > a{
+    color: white;
+}
+
+.OuterWearMenu > li:nth-child(2){
+    padding: 5px 0px 0px 23px;
+    border-bottom: 1px solid gray;
+}
+
+.OuterWearMenu >li:nth-child(2):hover {
+    background: rgb(184, 182, 182);
+}
+
+.OuterWearMenu >li:nth-child(2):hover > a{
+    color: white;
+}
+
+.OuterWearMenu > li:nth-child(3){
+    padding: 5px 0px 0px 23px;
+}
+
+.OuterWearMenu >li:nth-child(3):hover {
+    background: rgb(184, 182, 182);
+}
+
+.OuterWearMenu >li:nth-child(3):hover > a{
+    color: white;
+}
+.nav-pds {
+    height: 77px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: absolute;
+    left: 52em;
+    bottom: -0.5em;
+}
+
+.nav-search {
+    display: flex;
+}
+
+.nav-search input {
+    background: #ddd;
+    font-size: 0.8em;
+    height: 34px;
+    border: 0;
+    border-radius: 20px;
+    padding-left: 20px;
+    padding-right: 60px;
+    box-shadow: 2px 0px 5px gray;
+}
+
+.nav-search button {
+    position: absolute;
+    left: 15.5em;
+    top: 2.2em;
+    border: 0;
+    height: 20px;
+    background: #ddd;
+}
+
+.nav-features{
+    width: 200px;
+    margin-left: 30px;
+}
+
+.nav-features a{
+    color: black;
+    font-size: 1.5em;
+    padding: 8px;
+    background: pink;
+    margin-right: 10px;
+    border-radius: 7px;
+    box-shadow: 0px 0px 5px gray;
+}
+
+.nav-features a:hover i {
+    color: white;
+    transform: scale(1.1);
+}
+
+/* navigation section ends */
+
+/* wallpaper section starts */
+.wallx {
+    width: 100%;
+    min-height: 600px;
+}
+.wallpaper-item {
+    width: 100%;
+    height: 600px;
+    background-image: url(https://blog.klekt.com/wp-content/uploads/2020/05/Travis-Scott-Wearing-the-Travis-Scott-x-Nike-Air-Force-1-Cactus-Jack.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.wallpaper-item h4 {
+    color: white;
+    font-size: 1.4em;
+    margin-bottom: 15px;
+    letter-spacing: 10px;
+}
+
+.wallpaper-item span {
+    color: white;
+    border: 2px solid white;
+    text-transform: uppercase;
+    font-size: 0.8em;
+    padding: 10px 35px;
+    transform: translate(0px, 30%);
+    transition: all .7s ease;
+}
+
+.wallpaper-item:hover span {
+    transform: translate(0px, 0px);
+}
+/* wallpaper section ends */
+
+/* products section starts */
+.prx {
+    width: 100%;
+    min-height: 750px;
+    margin-top: 30px;
+}
+
+.products-content {
+    height: 500px;
+    margin: 20px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 5px 0px 5px #616161;
+}
+
+.products-content img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: all 0.9s ease;
+    filter: brightness(80%);
+}
+
+.products-content:hover img {
+    transform: scale(1.1);  
+    filter: brightness(100%);
+}
+.products-content h1 {
+    color: white;
+    font-size: 4em;
+    font-weight: bold;
+    letter-spacing: 5px;
+    position: absolute;
+    top: 210px;
+    left: 200px;
+}
+
+.products-content h2 {
+    color: white;
+    font-size: 2em;
+    font-weight: bold;
+    letter-spacing: 5px;
+    position: absolute;
+    top: 210px;
+    left: 100px;
+}
+
+.col-3 img {
+    filter: brightness(70%);
+}
+
+/* products-display section starts */
+.dropsx {
+    width: 1450px;
+}
+
+.heading-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading-title h1 {
+    margin: 50px 0px;
+    padding: 15px;
+    font-size: 2em;
+    font-weight: 700;
+}
+.heading-title i {
+    font-size: 2.5em;
+    font-weight: bolder;
+}
+
+.products-drop {
+    position: relative;
+    height: 350px;
+    margin: 20px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.products-drop a {
+    text-decoration: none;
+    color: black;
+}
+.products-drop img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(100%);
+    margin-bottom: 10px;
+}
+
+.products-drop .img-hover {
+    width: 100%;
+    height: 280px;
+    position: absolute;
+    top: 0em;
+    right: 0em;
+    opacity: 0;  
+    transition: all .4s ease;
+}
+
+.products-drop:hover .img-hover {
+    opacity: 1;
+    filter: brightness(90%);
+}
+
+.products-drop i {
+    position: absolute;
+    font-size: 2.2em;
+    font-weight: 500;
+    top: 6.2em;
+    left: 2.95em;
+    background: rgb(185, 223, 247);
+    padding: 11px 11px 10px 11px;
+    opacity: 0;
+    transition: all .6s ease;
+    color: black;
+    border-radius: 100%;
+    box-shadow: 0px 0px 5px gray;
+    transform: translate(0px, 50%);
+}
+
+.products-drop:hover i {
+    opacity: 1;
+    transform: translate(0px, 0px);
+}
+
+.products-drop h3,
+.products-drop h4,
+.products-drop span {
+    margin-top: 10px;
+}
+
+.products-drop h3 {
+    font-size: 1.0em;
+}
+
+.products-drop h4 {
+    font-weight: 750;
+}
+
+.products-drop span {
+    font-size: 0.9em;
+    color: gray;
+    text-decoration: line-through;
+}
+
+.newIcon h5 {
+    position: absolute;
+    text-transform: uppercase;
+    font-size: 0.7em;
+    font-weight: 600;
+    background: red;
+    color: white;
+    letter-spacing: 2px;
+    padding: 50px 50px 7px 50px;
+    bottom: 310px;
+    left: 190px;
+    transform: rotate(45deg);
+}
+/* products-display section ends */
+
+/* subscribe section starts */
+#subscribe {
+    height: 200px;
+    margin-top: 50px;
+    background: black;
+}
+
+.subscribe-element {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.subscribe-element h1{
+    margin-top: 40px;
+    color: white;
+    font-size: 1.7em;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.subscribe-element p {
+    margin-top: 5px;
+    color: white;
+    line-height: 20px;
+    font-size: 0.9em;
+}
+
+.subscribe-button {
+    position: relative;
+    margin-top: 20px;
+    border-radius: 100%;
+}
+
+.subscribe-button input {
+    padding: 10px;
+    padding-right: 150px;
+    border-radius: 20px;
+    border: 0;
+}
+
+.subscribe-button button {
+    position: absolute;
+    left: 20.4em;
+    padding: 10px;
+    border-radius: 20px;
+    border: 0;
+    box-shadow: 0px 0px 5px gray;
+    background: whitesmoke;
+}
+
+.subscribe-element .socials ul{
+    display: flex;
+}
+
+.socials ul li a{
+    position: relative;
+    display: block;
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border-radius: 100%;
+    margin: 15px;
+    text-align: center;
+}
+
+.socials ul li a:hover i {
+    transform: scale(1.2);
+}
+
+.socials ul li a i{
+    position: absolute;
+    left: 0.3em;
+    top: 0.3em;
+    color: black;
+    font-size: 1.5em;
+    margin-top: 1px;
+    transition: all .4s ease;
+}
+
+.social-insta li a i {
+    padding-left: 2px;
+}
+
+.social-fb li a i {
+    padding-left: 5px;
+}
+/* subscribe section ends */
+
+/* footer section starts */
+.wxh {
+    width: 100%;
+}
+
+.footer-item {
+    height: 4em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid gray;
+}
+
+.footer-item i {
+    font-size: 1.7em;
+    margin-right: 10px;
+}
+
+.footer-item span {
+    text-transform: uppercase;
+    font-size: 0.9em;
+}
+
+.footer-item a {
+    text-decoration: none;
+}
+
+.footer-item a span {
+    text-transform: lowercase;
+    color: black;
+}
+
+.footer-item a:hover span {
+    color: gray;
+}
+

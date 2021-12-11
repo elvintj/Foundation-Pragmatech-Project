@@ -40,6 +40,8 @@ body {
     text-decoration: none;
 }
 /* Info section ends */
+
+/* Navbar section starts */
 .color-x {
     background-color: #f3f4f7;
     width: 100%;
@@ -59,9 +61,9 @@ body {
     color: black;
     font-size: 15px;
 }
-/* navbar section ends */
+/* Navbar section ends */
 
-/* main section starts */
+/* Main section starts */
 .main-img img {
     width: 911px;
     height: 688px;

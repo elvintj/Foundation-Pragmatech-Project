@@ -1,18 +1,6 @@
-function ask(question, yes, no)
-{
-  if(confirm(question)) yes();
 
-  else no();
-}
+let arr = [0, 1, 2, 3, 4];
 
-function showOk()
-{
-  alert("You agreed");
-}
+arr.push(1);
 
-function showCancel()
-{
-  alert("You cancelled");
-}
-
-ask("Do you agree with this statement?", showOk, showCancel);
+console.log(arr.push())
