@@ -1,0 +1,26 @@
+.card {
+    width: 800px;
+    position: relative;
+    left: 22em;
+}
+
+.btns {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 6em;
+    left: 17em;
+}
+
+.btns button {
+    padding: 10px;
+    margin-bottom: 12px;
+    background: cyan;
+    border-radius: 20px;
+}
+
+.card img {
+    width: 800px;
+    object-fit: cover;
+    overflow: hidden;
+}
